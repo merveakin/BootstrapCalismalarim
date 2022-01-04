@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap Çalışmalarım</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--
+        - Navigation menü
+        - Slider Resimler
+        - Table
+        - Footer
+    -->
+    <!--Burası navigasyon başlangıcı-->
+    <div style="margin-left:10px;">
+        <nav class="navbar navbar-expand lg navbar-light bg-light">
+            <a class="navbar-brand" href="Anasayfa.html">Örneklerim</a>
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Anasayfa.html">
+                            AnaSayfa
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Urunlerimiz.html">
+                            Ürünlerimiz
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </div>
+    <!--Burası navigasyon bitişi-->
+
+    <br /> <br />
+
+    <!--carousel slider başlangıcı-->
+    <div style="width:900px; margin-left:40px">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Birinci slayt">
+                    <div style="background-color:rgba(0,0,0,0.5);color:white;" class="carousel-caption d-none d-md-block">
+                        <h5>Sanat Resimleri</h5>
+                        <p>Bu resimler dünyanın farklı yerlerinde çekilmiş mimarilere aittir.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Resimlerim/Resim3.jfif" alt="İkinci Slayt">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Resimlerim/Resim2.jfif" alt="Üçüncü Slayt">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <!--carousel slider bitişi-->
+
+    <br /><br />
+
+    <div style="background-color:powderblue; margin:15px;">
+        <div class="row">
+            <div class="col-4">
+                <h3>Deneme</h3>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nullam cursus nibh augue,
+                    eget maximus sem lacinia eu.
+                    Suspendisse semper consectetur arcu,
+                    in semper odio convallis quis. Vivamus
+                    auctor a neque nec pellentesque. Orci
+                    varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus.
+                    Sed at volutpat nisi, ac auctor sapien.
+                    Maecenas vitae placerat sem. Vestibulum facilisis
+                    nisl libero
+                </p>
+            </div>
+            <div class="col-4">
+                <h3>Deneme</h3>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nullam cursus nibh augue,
+                    eget maximus sem lacinia eu.
+                    Suspendisse semper consectetur arcu,
+                    in semper odio convallis quis. Vivamus
+                    auctor a neque nec pellentesque. Orci
+                    varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus.
+                    Sed at volutpat nisi, ac auctor sapien.
+                    Maecenas vitae placerat sem. Vestibulum facilisis
+                    nisl libero
+                </p>
+            </div>
+            <div class="col-4">
+                <h3>Deneme</h3>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nullam cursus nibh augue,
+                    eget maximus sem lacinia eu.
+                    Suspendisse semper consectetur arcu,
+                    in semper odio convallis quis. Vivamus
+                    auctor a neque nec pellentesque. Orci
+                    varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus.
+                    Sed at volutpat nisi, ac auctor sapien.
+                    Maecenas vitae placerat sem. Vestibulum facilisis
+                    nisl libero
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
